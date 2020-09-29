@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.centered {
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+}
+
+@keyframes createBox {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes line {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 90%;
+  }
+}
